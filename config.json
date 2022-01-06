@@ -1,0 +1,8 @@
+// Initial configuration for the bot. To actually run it through a Discord client, you'll need to properly edit this file. 
+{
+        // Bot command prefix.
+        "prefix": "-",
+        
+        // Specialized client token for Discord bot. Please consult your Discord.js API bot application to retrieve said private token.
+        "token": "$token"
+}

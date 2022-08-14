@@ -1,3 +1,3 @@
 # wintermute
-WIP JS-based Discord music bot. 
+WIP Python-based Discord music bot. 
 [TBA]

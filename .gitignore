@@ -3,6 +3,7 @@
 *.exe
 *.venv
 *.txt
+*.pem
 
 # Forbidden intra directories and paths.
 /dep
@@ -88,3 +89,6 @@ venv.bak/
 *.vsix
 .history
 .ionide
+
+# misc
+*~

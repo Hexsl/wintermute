@@ -1,0 +1,13 @@
+# Managed by Systemd to run the Wintermute application as a service/daemon. 
+
+[Unit]
+Description=Wintermute Discord VC Bot
+
+[Service]
+Type=simple
+WorkingDirectory=%h/wintermute
+ExecStart=%h/wintermute/src/client-main.py
+Restart=on-failure # or always, on-abort, etc
+
+[Install]
+WantedBy=default.target

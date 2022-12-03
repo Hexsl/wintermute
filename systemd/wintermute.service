@@ -7,7 +7,7 @@ Description=Wintermute Discord VC Bot
 Type=simple
 WorkingDirectory=%h/wintermute
 ExecStart=%h/wintermute/src/client-main.py
-Restart=on-failure # or always, on-abort, etc
+Restart=on-failure
 
 [Install]
 WantedBy=default.target
